@@ -128,11 +128,11 @@ if __name__ == '__main__':
              'emb_dimension':100, # dimension of word embedding
              'mini_batch':64,
              'shortest_part_length':12,
-             'epochs':40,
+             'epochs':60,
              'class_type':5,
             'first_hidden_layer':100,
             'lr':0.001,
-            'emb_dropout':0.6,
+            'emb_dropout':0.7,
             'dense_dropout':0.5,
             'train_file': "../data/test.pkl.gz",
             'test_file': "../data/test.pkl.gz",
