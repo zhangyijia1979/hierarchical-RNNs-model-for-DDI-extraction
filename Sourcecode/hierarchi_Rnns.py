@@ -132,7 +132,7 @@ if __name__ == '__main__':
              'class_type':5,
             'first_hidden_layer':100,
             'lr':0.001,
-            'emb_dropout':0.6,
+            'emb_dropout':0.7,
             'dense_dropout':0.5,
             'train_file': "../data/train.pkl.gz",
             'test_file': "../data/test.pkl.gz",
