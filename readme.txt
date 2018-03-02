@@ -15,14 +15,16 @@ DDIextraction2013: the folder that contains the DDIextraction 2013 corpora inclu
 
 PreprocessData: the folder that contains three pkl files including train.pkl.gz, test.pkl.gz and vec.pkl.gz,respectively.
 
-Sourcecode: the folder that contains the source code.
+Sourcecode: the folder that contains the source code and a saved model.
 
 
 ============================ QUICKSTART ========================================
 
-The main requirement of the software is Keras 1.0.2, python 2.7 and numpy.
+The main requirement of the software is Keras 1.0.2, Theano 0.9.0, python 2.7 and numpy.
 
 User can use hierarchi_Rnns.py to automatic extract DDIs from pkl files which are preprocessed from xml format corpora.
+
+Since the model contains multiple layer, it generally need some time to train. To get the nice result, the epochs is suggested to set as 200. If the users have no time or GPU to train model, the saved model in the Sourcecode can be loaded to get an F-score about 0.73.
 
 Note that user maybe change the path in hierarchi_Rnns.py and three pkl files.
 
