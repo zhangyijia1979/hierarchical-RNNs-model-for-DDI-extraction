@@ -24,7 +24,7 @@ The main requirement of the software is Keras 1.0.2, Theano 0.9.0, python 2.7 an
 
 User can use hierarchi_Rnns.py to automatic extract DDIs from pkl files which are preprocessed from xml format corpora.
 
-Since the model contains multiple layer, it generally need some time to train. To get the nice result, the epochs is suggested to set as 200. If the users have no time or GPU to train model, the saved model in the Sourcecode can be loaded to get an F-score about 0.73.
+Since the model contains multiple layer, it generally need some time to train. If the users have no time or GPU to train model, the saved model in the Sourcecode can be loaded to test.
 
 Note that user maybe change the path in hierarchi_Rnns.py and three pkl files.
 
